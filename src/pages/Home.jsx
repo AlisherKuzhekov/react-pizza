@@ -55,13 +55,12 @@ function Home() {
       <div className="content__items">
         {isLoaded
           ? items.map((obj) => (
-            obj.length != 0 ?
               <PizzaBlock
                 onAddPizza={handleAddPizza}
                 key={obj.id}
                 countOfAddedPizzas={cartItems[obj.id] && cartItems[obj.id].items.length}
                 {...obj}
-              /> : null
+              />
             ))
           : Array(12)
               .fill(0)
