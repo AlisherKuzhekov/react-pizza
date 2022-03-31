@@ -88,7 +88,7 @@ function PizzaBlock({
           {countOfAddedPizzas && <i>{countOfAddedPizzas}</i>}
         </Button>
       </div>
-    </div> : null;
+    </div> : null
   );
 }
 
