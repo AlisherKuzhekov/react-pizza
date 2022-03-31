@@ -62,7 +62,7 @@ function Home() {
                 {...obj}
               />
             ))
-          : Array(11)
+          : Array(12)
               .fill(0)
               .map((_, index) => <PizzaLoadingBlock key={index} />)}
         <PizzaBlock />
